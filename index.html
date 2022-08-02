@@ -1,13 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Simple</title>
 </head>
+
 <body>
-  <h1>Hello HTML!</h1>
-  <img src="img/html-css-and.jpeg" alt="html css js">
+   <main>
+     <h1>Starlink</h1>
+     <a href="https://universemagazine.com/wp-content/uploads/2022/04/starlink-satellites-eliminate-wired-internet-1.jpg" target="_blank"><img src="img/starlink-satellites.jpg" alt="starlink-satellites" width="600"></a>
+     <p><b>Starlink</b> — проєкт американської компанії SpaceX щодо розробки високопродуктивної 
+      супутникової платформи для виготовлення супутників зв'язку та запусків великої їх 
+      кількості (сузір'я) у космос[1]. Система надає доступ до широкосмугового інтернету у 
+      будь-якій точці планети. Першою компанія почала обслуговувати Канаду та США (2020).</p>
+   </main>
+   <form action="question">
+      <p>Введіть назву компанії</p>
+      <input type="text" placeholder="Введіть назву компанії">
+      <p>Ілон Маск причетний до компанії <b>Starlink</b>?</p>
+      <label for="Yes"><input type="radio" name="yes-no" id="Yes">Yes</label>
+      <label for="No"><input type="radio" name="yes-no" id="No">No</label>
+      <button>Submit</button>
+   </form>
+    <form action="Checkboxes">
+      <p>Що правда? Правильну відповідь вибери</p>
+      <label for="create">
+        <input type="checkbox" name="question-for-you" id="create">компанія створена в Америці
+      </label>
+      <label for="cable">
+        <input type="checkbox" name="question-for-you" id="cable">інтернет через кабель
+      </label>
+      <label for="support">
+        <input type="checkbox" name="question-for-you" id="country">Першою компанія почала обслуговувати Канаду та США
+      </label>
+    </form>
 </body>
+
 </html>
